@@ -57,6 +57,7 @@ with st.form(key='add_investment_form'):
         except ValueError:
             st.error("Por favor, verifique se os valores numéricos estão corretos.")
 
+
 ### Exibição da tabela de investimentos
 
 st.subheader('Meus Investimentos')
